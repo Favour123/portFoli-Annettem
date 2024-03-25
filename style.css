@@ -284,7 +284,9 @@ left: 30%;
       left: 0%;
       }
 
-      .aweText:hover{	box-shadow: 0 12px 17px -2px rgb(0 0 0 / 0.1), 0 5px 7px -3px rgb(0 0 0 / 0.1);}
+      .aweText:hover{	box-shadow: 0 12px 17px -2px rgb(0 0 0 / 0.1), 0 5px 7px -3px rgb(0 0 0 / 0.1);
+          transform: translate(-5px, -8px);
+      }
 
 
 
@@ -424,9 +426,6 @@ textarea{
 .mail{
       text-decoration: none;
 }
-.mail:focus-within{
-      border-bottom: 1px solid red;
-}
 .pink h1{
       font-size: 3rem;
       font-weight: 700;
@@ -527,6 +526,16 @@ textarea{
       .img{
             width: 100%;
             margin-bottom: 2rem;
+      }
+      .carouse{
+            padding-top: 2rem;
+            width: 100%;
+      }
+      .carousel-caption p{
+            font-size: 0.9rem;
+      }
+      .picture-con {
+            font-size: 1.2rem;
       }
       .link,.copyright{
             font-size: 0.8rem;
