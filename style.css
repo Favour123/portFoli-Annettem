@@ -170,7 +170,7 @@ ul li a:checked{
       background-color: #f7f7f7;
 }
 .service{
-      height: 100vh;
+      height: max-content;
 }
 .awe{
       font-size: 3.5rem;
@@ -182,13 +182,13 @@ ul li a:checked{
       text-align: center;
       width: 100%;
       background-color: #fff;
+      margin-bottom: 30px;
 }
 .Aweflex{
       display: flex;
       gap: 20px;
       /* flex-wrap: wrap; */
       padding-top: 50px;
-      margin-bottom: 30px;
 }
 .serCon{
       display: flex;
@@ -319,8 +319,8 @@ left: 30%;
       font-size: 1.1rem;
 }
 .carousel-control-next,.carousel-control-prev{
-      bottom: 5%;
-      top: auto;
+      bottom: 0%;
+      top: 100%;
       width: fit-content;
       color: #141212;
 }
@@ -511,13 +511,19 @@ textarea{
       .carouse{
             padding-top: 2rem;
             width: 100%;
-      }
+
+     }
+     .serCon a{
+      font-size: 1rem;
+} 
 }
 @media (min-width:764px) and (max-width:970px){
       textarea{
             width: 300px;
       }
-
+      .serCon a{
+            font-size: 1rem;
+      }
 }
 @media screen and (min-width:200px) and (max-width:400px) {
       .about-content1{
